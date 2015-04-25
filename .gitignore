@@ -1,11 +1,17 @@
-
-/.idea/workspace.xml
-/.idea/libraries
+/local.properties
 /.idea
-.idea
-*.iml
 .DS_Store
-/build
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Built application files
+/*/build/
+build/
+
 # Built application files
 *.apk
 *.ap_
@@ -22,8 +28,6 @@ gen/
 
 # Gradle files
 .gradle/
-build/
-/*/build/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -33,4 +37,4 @@ proguard/
 
 # Log Files
 *.log
-
+*.iml
